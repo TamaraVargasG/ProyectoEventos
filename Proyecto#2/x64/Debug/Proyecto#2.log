@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  SalesSystem.cpp
+C:\Users\varga\Documents\PrimerProyecto#2\Proyecto#2\SalesSystem.cpp(49,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\varga\Documents\PrimerProyecto#2\Proyecto#2\SalesSystem.cpp(192,33): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  main.cpp
+  Generando código...
   Proyecto#2.vcxproj -> C:\Users\varga\Documents\PrimerProyecto#2\x64\Debug\Proyecto#2.exe

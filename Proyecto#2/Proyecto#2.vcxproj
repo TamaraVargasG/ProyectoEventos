@@ -136,11 +136,11 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SalesSystem.cpp" />
-    <ClCompile Include="Segmentos.cpp" />
+    <ClCompile Include="Segmento.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SalesSystem.h" />
-    <ClInclude Include="Segmentos.h" />
+    <ClInclude Include="Segmento.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
