@@ -1,54 +1,51 @@
 #include "Segmento.h"
-#include <iostream>
-using namespace std;
 
-Segmento::Segmento() : filas(0), columnas(0), matriz(nullptr), precio(0.0f) {}
-
-Segmento::~Segmento() {
-    for (int i = 0; i < filas; ++i) {
-        delete[] matriz[i];
-    }
-    delete[] matriz;
+Segmento::Segmento(const string& nombre, int espacios, float precio)
+    : nombre(nombre), precio(precio), espaciosTotales(espacios) {
+    // Inicializar todos los espacios como libres (false)
+    espacios.resize(espaciosTotales, false);
 }
 
-void Segmento::configurar(int f, int c, float p) {
-    filas = f;
-    columnas = c;
-    precio = p;
-    inicializarMatriz();
+void Segmento::setEspacios(int nuevosEspacios) {
+    espaciosTotales = nuevosEspacios;
+    espacios.resize(espaciosTotales, false);  // Redimensionamos el vector
 }
 
-void Segmento::inicializarMatriz() {
-    matriz = new char* [filas];
-    for (int i = 0; i < filas; ++i) {
-        matriz[i] = new char[columnas];
-        for (int j = 0; j < columnas; ++j) {
-            matriz[i][j] = 176;  // Asiento disponible
-        }
+void Segmento::setPrecio(float nuevoPrecio) {
+    precio = nuevoPrecio;
+}
+
+void Segmento::ocuparEspacio(int espacio) {
+    if (espacio >= 0 && espacio < espaciosTotales) {
+        espacios[espacio] = true;  // Marcar como ocupado
     }
 }
 
-bool Segmento::ocuparAsiento(int fila, int columna) {
-    if (fila >= 0 && fila < filas && columna >= 0 && columna < columnas && matriz[fila][columna] == 176) {
-        matriz[fila][columna] = 178;  // Asiento ocupado
-        return true;
+bool Segmento::estaOcupado(int espacio) const {
+    if (espacio >= 0 && espacio < espaciosTotales) {
+        return espacios[espacio];  // Retorna si el espacio está ocupado
     }
     return false;
 }
 
-bool Segmento::asientoOcupado(int fila, int columna) const {
-    return matriz[fila][columna] == 178;
+string Segmento::getNombre() const {
+    return nombre;
 }
 
-void Segmento::mostrarMatriz() const {
-    for (int i = 0; i < filas; ++i) {
-        for (int j = 0; j < columnas; ++j) {
-            cout << matriz[i][j] << ' ';
+float Segmento::getPrecio() const {
+    return precio;
+}
+
+int Segmento::getEspacios() const {
+    return espaciosTotales;
+}
+
+int Segmento::getEspacioLibre() const {
+    int libres = 0;
+    for (bool ocupado : espacios) {
+        if (!ocupado) {
+            libres++;
         }
-        cout << endl;
     }
+    return libres;  // Retorna la cantidad de espacios libres
 }
-
-int Segmento::getFilas() const { return filas; }
-int Segmento::getColumnas() const { return columnas; }
-float Segmento::getPrecio() const { return precio; }

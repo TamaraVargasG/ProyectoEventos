@@ -134,13 +134,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Botones.cpp" />
+    <ClCompile Include="ConfigurarDescuento.cpp" />
+    <ClCompile Include="ConfigurarSegmento.cpp" />
+    <ClCompile Include="CrearEvento.cpp" />
+    <ClCompile Include="CuadroTexto.cpp" />
+    <ClCompile Include="Estado.cpp" />
+    <ClCompile Include="InterfazGrafica.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SalesSystem.cpp" />
     <ClCompile Include="Segmento.cpp" />
+    <ClCompile Include="VenderEntrada.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SalesSystem.h" />
+    <ClInclude Include="Botones.h" />
+    <ClInclude Include="ConfigurarDescuento.h" />
+    <ClInclude Include="ConfigurarSegmento.h" />
+    <ClInclude Include="CrearEvento.h" />
+    <ClInclude Include="CuadroTexto.h" />
+    <ClInclude Include="Estado.h" />
+    <ClInclude Include="InterfazGrafica.h" />
     <ClInclude Include="Segmento.h" />
+    <ClInclude Include="VenderEntrada.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="arial.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

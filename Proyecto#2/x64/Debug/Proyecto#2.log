@@ -1,6 +1,145 @@
-﻿  SalesSystem.cpp
-C:\Users\varga\Documents\PrimerProyecto#2\Proyecto#2\SalesSystem.cpp(49,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-C:\Users\varga\Documents\PrimerProyecto#2\Proyecto#2\SalesSystem.cpp(192,33): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+﻿  InterfazGrafica.cpp
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\InterfazGrafica.cpp(4,90): error C2512: 'CrearEvento': no hay disponible un constructor predeterminado adecuado
+      C:\Users\varga\Videos\PrimerProyecto(8,7):
+      vea la declaración de 'CrearEvento'
+  
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\InterfazGrafica.cpp(4,90): error C2512: 'ConfigurarSegmento': no hay disponible un constructor predeterminado adecuado
+      C:\Users\varga\Videos\PrimerProyecto(8,7):
+      vea la declaración de 'ConfigurarSegmento'
+  
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\InterfazGrafica.cpp(4,90): error C2512: 'ConfigurarDescuento': no hay disponible un constructor predeterminado adecuado
+      C:\Users\varga\Videos\PrimerProyecto(8,7):
+      vea la declaración de 'ConfigurarDescuento'
+  
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\InterfazGrafica.cpp(4,90): error C2512: 'VenderEntrada': no hay disponible un constructor predeterminado adecuado
+      C:\Users\varga\Videos\PrimerProyecto(11,7):
+      vea la declaración de 'VenderEntrada'
+  
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\InterfazGrafica.cpp(4,90): error C2512: 'Estado': no hay disponible un constructor predeterminado adecuado
+      C:\Users\varga\Videos\PrimerProyecto(10,7):
+      vea la declaración de 'Estado'
+  
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\InterfazGrafica.cpp(65,16): error C2660: 'Estado::mostrar': la función no acepta 1 argumentos
+      C:\Users\varga\Videos\PrimerProyecto(16,10):
+      vea la declaración de 'Estado::mostrar'
+      C:\Users\varga\Videos\PrimerProyecto(65,16):
+      al hacer coincidir la lista de argumentos '(sf::RenderWindow)'
+  
   main.cpp
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\main.cpp(3,10): error C1083: No se puede abrir el archivo incluir: 'Graficos.h': No such file or directory
+  Segmento.cpp
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.h(31,23): error C2371: 'Segmento::espacios': nueva definición; tipos básicos distintos
+  (compilando archivo de origen "../../PrimerProyecto#2%20-%20copia%20(3)%20-%20copia%20-%20copia%20-%20copia%20-%20copia%20-%20copia%20-%20copia/Proyecto#2/Segmento.cpp")
+      C:\Users\varga\Videos\PrimerProyecto(22,22):
+      vea la declaración de 'Segmento::espacios'
+  
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(20,9): error C2597: referencia no válida a miembro no static 'Segmento::espacios'
+      C:\Users\varga\Videos\PrimerProyecto(20,9):
+      vea la declaración de 'Segmento::espacios'
+  
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(20,9): error C3867: 'Segmento::espacios': sintaxis no estándar; utilice '&' para crear un puntero al miembro
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(20,9): error C2568: '[': no se puede resolver la sobrecarga de funciones
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(26,16): error C2597: referencia no válida a miembro no static 'Segmento::espacios'
+      C:\Users\varga\Videos\PrimerProyecto(26,16):
+      vea la declaración de 'Segmento::espacios'
+  
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(26,16): error C3867: 'Segmento::espacios': sintaxis no estándar; utilice '&' para crear un puntero al miembro
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(26,16): error C2568: '[': no se puede resolver la sobrecarga de funciones
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(45,25): error C3535: no se puede deducir el tipo de 'auto &&' a partir de 'unknown'
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(45,25): error C2440: 'inicializando': no se puede realizar la conversión de 'unknown' a 'int &&'
+      C:\Users\varga\Videos\PrimerProyecto(45,25):
+      Razón: no se puede realizar la conversión de 'unknown' a 'int'
+      C:\Users\varga\Videos\PrimerProyecto(45,25):
+      referencia mal formada a un miembro no estático
+  
+  VenderEntrada.cpp
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(45,25): error C2672: 'begin': no se encontró una función sobrecargada que coincida
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1982,27):
+      puede ser '_Ty *std::begin(_Ty (&)[_Size]) noexcept'
+          C:\Users\varga\Videos\PrimerProyecto(45,25):
+          "_Ty *std::begin(_Ty (&)[_Size]) noexcept": no se pudo deducir el argumento plantilla para "_Ty (&)[_Size]" de "int"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1964,30):
+      o       'unknown-type std::begin(const _Container &) noexcept(<expr>)'
+          C:\Users\varga\Videos\PrimerProyecto(45,25):
+          No se pudo especializar la plantilla de función "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+              C:\Users\varga\Videos\PrimerProyecto(45,25):
+              Con los siguientes argumentos de plantilla:
+                  C:\Users\varga\Videos\PrimerProyecto(45,25):
+                  '_Container=int'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1965,23):
+              el operando izquierdo de '.begin' debe tener class/struct/union
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1965,23):
+                  el tipo es 'const _Container'
+          with
+          [
+              _Container=int
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1958,30):
+      o       'unknown-type std::begin(_Container &) noexcept(<expr>)'
+          C:\Users\varga\Videos\PrimerProyecto(45,25):
+          No se pudo especializar la plantilla de función "unknown-type std::begin(_Container &) noexcept(<expr>)"
+              C:\Users\varga\Videos\PrimerProyecto(45,25):
+              Con los siguientes argumentos de plantilla:
+                  C:\Users\varga\Videos\PrimerProyecto(45,25):
+                  '_Container=int'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1959,23):
+              el operando izquierdo de '.begin' debe tener class/struct/union
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1959,23):
+                  el tipo es '_Container'
+          with
+          [
+              _Container=int
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\initializer_list(54,35):
+      o       'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept'
+          C:\Users\varga\Videos\PrimerProyecto(45,25):
+          "const _Elem *std::begin(std::initializer_list<_Elem>) noexcept": no se pudo deducir el argumento plantilla para "std::initializer_list<_Elem>" de "int"
+  
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(45,25): error C2672: 'end': no se encontró una función sobrecargada que coincida
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1987,27):
+      puede ser '_Ty *std::end(_Ty (&)[_Size]) noexcept'
+          C:\Users\varga\Videos\PrimerProyecto(45,25):
+          "_Ty *std::end(_Ty (&)[_Size]) noexcept": no se pudo deducir el argumento plantilla para "_Ty (&)[_Size]" de "int"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1976,30):
+      o       'unknown-type std::end(const _Container &) noexcept(<expr>)'
+          C:\Users\varga\Videos\PrimerProyecto(45,25):
+          No se pudo especializar la plantilla de función "unknown-type std::end(const _Container &) noexcept(<expr>)"
+              C:\Users\varga\Videos\PrimerProyecto(45,25):
+              Con los siguientes argumentos de plantilla:
+                  C:\Users\varga\Videos\PrimerProyecto(45,25):
+                  '_Container=int'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1977,23):
+              el operando izquierdo de '.end' debe tener class/struct/union
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1977,23):
+                  el tipo es 'const _Container'
+          with
+          [
+              _Container=int
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1970,30):
+      o       'unknown-type std::end(_Container &) noexcept(<expr>)'
+          C:\Users\varga\Videos\PrimerProyecto(45,25):
+          No se pudo especializar la plantilla de función "unknown-type std::end(_Container &) noexcept(<expr>)"
+              C:\Users\varga\Videos\PrimerProyecto(45,25):
+              Con los siguientes argumentos de plantilla:
+                  C:\Users\varga\Videos\PrimerProyecto(45,25):
+                  '_Container=int'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1971,23):
+              el operando izquierdo de '.end' debe tener class/struct/union
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1971,23):
+                  el tipo es '_Container'
+          with
+          [
+              _Container=int
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\initializer_list(59,35):
+      o       'const _Elem *std::end(std::initializer_list<_Elem>) noexcept'
+          C:\Users\varga\Videos\PrimerProyecto(45,25):
+          "const _Elem *std::end(std::initializer_list<_Elem>) noexcept": no se pudo deducir el argumento plantilla para "std::initializer_list<_Elem>" de "int"
+  
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(45,25): error C3536: '<begin>$L0': no se puede usar antes de inicializarse
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(45,25): error C3536: '<end>$L0': no se puede usar antes de inicializarse
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\Segmento.cpp(45,33): error C2100: no se puede desreferenciar un operando de tipo 'int'
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\VenderEntrada.cpp(60,46): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\varga\Videos\PrimerProyecto#2 - copia (3) - copia - copia - copia - copia - copia - copia\Proyecto#2\VenderEntrada.cpp(61,45): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
   Generando código...
-  Proyecto#2.vcxproj -> C:\Users\varga\Documents\PrimerProyecto#2\x64\Debug\Proyecto#2.exe
